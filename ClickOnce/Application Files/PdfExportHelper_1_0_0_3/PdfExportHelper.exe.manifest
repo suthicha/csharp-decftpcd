@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="PdfExportHelper.exe" version="1.0.0.3" publicKeyToken="a3c96466eddba097" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="PdfExportHelper" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="PdfExportHelper.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PdfExportHelper.exe" size="21480">
+      <assemblyIdentity name="PdfExportHelper" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>8KYt+WLTEn/PIjJZl/xkjVvp5F8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Net.FtpClient.dll" size="82944">
+      <assemblyIdentity name="System.Net.FtpClient" version="1.0.5824.34026" publicKeyToken="FA4BE07DAA57C2B7" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>27TFbuChuKGu1p95cUwDp6CtSmQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="PdfExportHelper.exe.config" size="467">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EXGDJF+KchDhLdzjIIGX8tU+sAI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=IAMSUTHICHA-VM\Administrator" issuerKeyHash="aaae164d65ef500436a4fc4b26551417a08ac83a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>7bIDGhoJdCe2U6U0dL4uJUnyAKM=</DigestValue></Reference></SignedInfo><SignatureValue>D/+YmBHEpNP8PsCNVt7oRi6zHWqT2Dh4Hg8Oj2cyjNxXrqxdEWVQbmjnZXyZp1VEOEo4TngxP3eCmSsZDvZozeYxQ0J1ulbxcjgEO8TjF8k465IQOJ2ffSOUebJAiLyR5nyTfXWdb5kyh3vxK97vlSSe5czkSAnC63v2EFfLOLk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0mIvMrrvKbF410v1R+aR3WTUOaNoEw6UpItpd8lj2BJRI6j1DYf0gk7roZwMQdY210bv9Dcy1VXGnHcdbMftRbmUc5Q6r58CYlpaR9iGmwsFCUT6DrfMsE/1RPmYnBEfcin4G642lwEPO5z7Umc1EwAxmcBPhttbD1dveUL4i48=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a300f249252ebe7434a553b62774091a1a03b2ed" Description="" Url=""><as:assemblyIdentity name="PdfExportHelper.exe" version="1.0.0.3" publicKeyToken="a3c96466eddba097" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=IAMSUTHICHA-VM\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>FZ1RiJ0AXhP7Me9ZlaMuLdv/STg=</DigestValue></Reference></SignedInfo><SignatureValue>bGRy1dZ1fUXIhVx8exKyqMEw2JIY8kS+1sw/FZfVXSCgBiYwKnToiW6esVG4opubyxClGG5RVpvMPBEF33xwFpxrH32WZVjd+gOS7eMRWDqJZAkymHcodb60XmRpcV1yeOiDkqOzESQr+R0oSrFlcC0hR26YfzX3mOCL7G13NpU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0mIvMrrvKbF410v1R+aR3WTUOaNoEw6UpItpd8lj2BJRI6j1DYf0gk7roZwMQdY210bv9Dcy1VXGnHcdbMftRbmUc5Q6r58CYlpaR9iGmwsFCUT6DrfMsE/1RPmYnBEfcin4G642lwEPO5z7Umc1EwAxmcBPhttbD1dveUL4i48=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICCTCCAXKgAwIBAgIQFTjiaX58iq5Kxdn7nqQ0qDANBgkqhkiG9w0BAQUFADBDMUEwPwYDVQQDHjgASQBBAE0AUwBVAFQASABJAEMASABBAC0AVgBNAFwAQQBkAG0AaQBuAGkAcwB0AHIAYQB0AG8AcjAeFw0xNzA2MDgwOTEzMzVaFw0xODA2MDgxNTEzMzVaMEMxQTA/BgNVBAMeOABJAEEATQBTAFUAVABIAEkAQwBIAEEALQBWAE0AXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDSYi8yuu8psXjXS/VH5pHdZNQ5o2gTDpSki2l3yWPYElEjqPUNh/SCTuuhnAxB1jbXRu/0NzLVVcacdx1sx+1FuZRzlDqvnwJiWlpH2IabCwUJRPoOt8ywT/VE+ZicER9yKfgbrjaXAQ87nPtSZzUTADGZwE+G21sPV295QviLjwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBALEL6rFXNTtn5W+T/6rrDddig2lW8kV1m5iE7FCULDn8SeBuWH0TYFFOL2nkOyVBMBgV/LrZOYfqo8I2T7fBhxMqw2HVSuFMn2PHZFROBbhDM715hPH0OBCy3m0i4sM1tm1sqRIGC7P596zfnS+dAGUYoWPJ2gR86yil0egTLxNj</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

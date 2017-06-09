@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DECFtpCDSolution", "DECFtpCDSolution.csproj", "{1D224BB3-21DA-47D5-B1B4-9A79BD014856}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DECFtpCD.WinApp", "..\DECFtpCD.WinApp\DECFtpCD.WinApp.csproj", "{2923EC7E-DB21-4367-9B4A-C92A5FF46920}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1D224BB3-21DA-47D5-B1B4-9A79BD014856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1D224BB3-21DA-47D5-B1B4-9A79BD014856}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1D224BB3-21DA-47D5-B1B4-9A79BD014856}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1D224BB3-21DA-47D5-B1B4-9A79BD014856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2923EC7E-DB21-4367-9B4A-C92A5FF46920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2923EC7E-DB21-4367-9B4A-C92A5FF46920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2923EC7E-DB21-4367-9B4A-C92A5FF46920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2923EC7E-DB21-4367-9B4A-C92A5FF46920}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
